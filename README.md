@@ -15,7 +15,9 @@ This repo contains a script to process the Human Activity Recognition Using Smar
 3. A tidyDataNarrow.txt file will be created by the script in step #2.
 
 ## Analysis Performed
-The data is split in two ways.  It is split into a test and train data sets. Each data set is then further split into three files: X, Y, and subject.  
+
+The data is split in two ways.  It is split into a test and train data sets. Each data set is then further split into three files: X, Y, and subject. 
+
 1. Bind together using cbind the X,Y, and subject data sets. This completes two complete data set (test and train)
 2. Bind together both datasets using rbind.
 3. Only the mean and standard deviations measurments are desired, so determine which columns (both names and numbers) in the data sets to keep by using grep to find all columns names containing mean and std.
